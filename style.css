@@ -248,13 +248,40 @@ header ul li a:hover{
     margin: 20px 0;
 }
 
-.variety-cart-text button{
-    padding: 10px 0;
+/* .variety-cart-text button{
+    padding: 05px 18px;
     background-color: transparent;
     color: #06C167;
     border: none;
     font-size: 13px;
     font-weight: 600;
     cursor: pointer;
+    border: 1px solid #06C167;
+    border-radius: 5px;
+    margin-bottom: 10px;
+} */
+
+.btn{
+    display: flex;
+    position: relative;
+    cursor: pointer;
+}   
+
+.btn button{
+    padding: 05px 18px;
+    background-color: transparent;
+    color: #06C167;
+    border: none;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    border: 1px solid #06C167;
+    border-radius: 5px;
+    padding-right: 30px;
+}
+.btn i{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 105px;
 }
 /* variety-Features-section End */
