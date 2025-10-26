@@ -269,13 +269,12 @@ header ul li a:hover{
 
 .btn button{
     padding: 05px 18px;
-    background-color: transparent;
+    background-color: rgba(230, 249, 240, 1);
     color: #06C167;
     border: none;
     font-size: 13px;
     font-weight: 500;
     cursor: pointer;
-    border: 1px solid #06C167;
     border-radius: 5px;
     padding-right: 30px;
 }
