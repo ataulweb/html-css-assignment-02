@@ -95,16 +95,17 @@ header ul li a:hover{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 40px 0;
+    padding: 50px 0;
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .free-shipping, .quick-payment, .special-promo, .support{
     display: flex;
     justify-content: center;
     gap: 20px;
+    cursor: pointer;
 }
 
 .icon-img{
@@ -117,3 +118,133 @@ header ul li a:hover{
     font-size: 12px;
 }
 /* Features Section End */
+
+/* Cart-Section start */
+.cart-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    margin-bottom: 60px;
+}
+
+.tik-mark{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.cart-content >p{
+    font-weight: 500;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+.cart-content >h1{
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+/* Cart-Section End */
+
+/* Cart-Star-section Start */
+.cart-star{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+}
+
+.cart-star-content h1{
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 50px;
+}
+
+.star-value-section{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.star-value-section h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: #06C167;
+}
+
+.cart-star-content >p{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.star-value p{
+    font-size: 12px;
+}
+/* Cart-Star-section End */
+
+/* variety-Features-section start */
+.variety-features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5em 0;
+}
+.variety-features > p{
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.variety-features h1{
+    font-weight: 500;
+    text-align: center;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 40px;
+}
+
+.variety-features-cart{
+    border: 1px solid #06C167;
+}
+.variety-cart-01{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+.variety-cart-02{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+.variety-cart-01 img, .variety-cart-02 img{
+    display: flex;
+    flex: 1;
+    width: 195px;
+    height: auto;
+}
+
+.variety-cart-text{
+    flex: 1;
+    padding: 0 18px;
+}
+
+.variety-cart-text h4{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.variety-cart-text p{
+    font-size: 13px;
+    margin: 20px 0;
+}
+
+
+/* variety-Features-section End */
