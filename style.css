@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+.container{
+    max-width: 1000px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+header h1{
+    font-size: 24px;
+    font-weight: 600;
+    color: #06C167;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+header ul li{
+    display: inline-block;
+    cursor: pointer;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: rgba(29, 29, 31, 1);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+header ul li a:hover{
+    color: #06C167;
+}
+
+/* Hero Section start */
+.hero-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.hero-content h1{
+    font-size: 70px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.banner-log{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    gap: 25px;
+    
+}
+
+.banner-log img{
+    width: 153px;
+    height: auto;
+    /* margin-left: 25px; */
+}
+
+.hero-btn{
+    margin-top: 40px;
+    padding: 15px 30px;
+    background-color: #06C167;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+/* Hero Section end */
+
+/* Features Section start */
+.features-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 40px;
+}
+
+.free-shipping, .quick-payment, .special-promo, .support{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icon-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-text p{
+    font-size: 12px;
+}
+/* Features Section End */
