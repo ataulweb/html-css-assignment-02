@@ -192,12 +192,10 @@ header ul li a:hover{
 .variety-features{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     margin: 5em 0;
 }
 .variety-features > p{
-    text-align: center;
     font-size: 13px;
     margin-bottom: 20px;
 }
@@ -211,34 +209,38 @@ header ul li a:hover{
 }
 
 .variety-features-cart{
-    border: 1px solid #06C167;
+    /* border: 1px solid #06C167; */
 }
 .variety-cart-01{
     display: flex;
     flex: 1;
     align-items: center;
+    border: 1px solid #06C167;
 }
 .variety-cart-02{
     display: flex;
     flex: 1;
     align-items: center;
+    border: 1px solid #06C167;
 }
 .variety-cart-01 img, .variety-cart-02 img{
     display: flex;
     flex: 1;
-    width: 195px;
+    width: 220px;
     height: auto;
 }
 
 .variety-cart-text{
     flex: 1;
+    width: 220px;
+    height: auto;
     padding: 0 18px;
 }
 
 .variety-cart-text h4{
     font-size: 25px;
-    font-weight: 500;
-    line-height: 25px;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 .variety-cart-text p{
@@ -246,5 +248,13 @@ header ul li a:hover{
     margin: 20px 0;
 }
 
-
+.variety-cart-text button{
+    padding: 10px 0;
+    background-color: transparent;
+    color: #06C167;
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
 /* variety-Features-section End */
