@@ -248,19 +248,6 @@ header ul li a:hover{
     margin: 20px 0;
 }
 
-/* .variety-cart-text button{
-    padding: 05px 18px;
-    background-color: transparent;
-    color: #06C167;
-    border: none;
-    font-size: 13px;
-    font-weight: 600;
-    cursor: pointer;
-    border: 1px solid #06C167;
-    border-radius: 5px;
-    margin-bottom: 10px;
-} */
-
 .btn{
     display: flex;
     position: relative;
@@ -286,6 +273,9 @@ header ul li a:hover{
 /* variety-Features-section End */
 
 /* Popular-product-section start */
+.popular-porduct-section{
+    margin-top: 07em;
+}
 .most-popular-product-cart{
     display: flex;
     justify-content: space-between;
@@ -300,7 +290,6 @@ header ul li a:hover{
     border: 1px solid #ccc;
     padding: 15px;
     line-height: 30px;
-    /* cursor: pointer; */
 }
 
 .popular-product-cost{
@@ -315,9 +304,15 @@ header ul li a:hover{
     font-weight: 500;
 }
 .popular-product-cost p{
-    color: rgba(118, 118, 117, 1);
+    color: rgb(181, 181, 181);
     font-size: 15px;
     font-weight: 500;
-    
+    text-decoration: line-through;
+}
+
+.popular-porduct-section h2{
+    margin: 10px 0 30px 0;
+    font-size: 40px;
+    font-weight: 500;
 }
 /* Popular-product-section end */
