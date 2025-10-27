@@ -10,7 +10,7 @@ body{
 
 .container{
     max-width: 1000px;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -43,7 +43,7 @@ header ul li a{
     text-decoration: none;
     color: rgba(29, 29, 31, 1);
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 header ul li a:hover{
@@ -362,7 +362,6 @@ header ul li a:hover{
 }
 
 .footer-section{
-    background-color: #F5F5F5;
     padding: 40px 10px;
 }
 
@@ -430,7 +429,7 @@ header ul li a:hover{
     border: none;
     outline: none;
     background-color: lightgray;
-    color: #ccc;
+    color:black;
     padding: 10px 0 10px 10px;
 }
 /* Footer-Section End */
