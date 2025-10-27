@@ -284,3 +284,40 @@ header ul li a:hover{
     margin-left: 105px;
 }
 /* variety-Features-section End */
+
+/* Popular-product-section start */
+.most-popular-product-cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+    gap: 20px;
+}
+.popular-product-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 15px;
+    line-height: 30px;
+    /* cursor: pointer; */
+}
+
+.popular-product-cost{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.popular-product-cost span{
+    color: #06C167;
+    font-size: 15px;
+    font-weight: 500;
+}
+.popular-product-cost p{
+    color: rgba(118, 118, 117, 1);
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+/* Popular-product-section end */
