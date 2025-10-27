@@ -315,4 +315,28 @@ header ul li a:hover{
     font-size: 40px;
     font-weight: 500;
 }
+
+.popular-product-btn{
+    display: flex;
+    position: relative;
+    cursor: pointer;
+}
+.popular-product-btn button{
+    padding: 07px 20px;
+    background-color: rgba(230, 249, 240, 1);
+    color: #06C167;
+    border: 1px solid #06C167;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+    padding-right: 30px;
+}
+
+.popular-product-btn i{
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 77px;
+
+}
 /* Popular-product-section end */
