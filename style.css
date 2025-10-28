@@ -465,15 +465,27 @@ header ul li a:hover{
     }
     .banner-log{
         display: block;
+        margin: 2em auto;
     }
     .hero-section{
         flex-direction: column;
         text-align: center;
         gap: 30px;
     }
+    .hero-image-rating{
+        position: relative;
+        right: 0;
+        bottom: 09em;
+    }
+    .hero-image-product-quality{
+        position: relative;
+        bottom: 10em;
+        right: 0;
+    }
     .hero-content h1{
         font-size: 40px;
     }
+
     .features-section{
         flex-direction: column;
         gap: 30px;
@@ -492,7 +504,14 @@ header ul li a:hover{
         flex-direction: column;
         gap: 20px;
     }
-
+    .star-value p{
+        text-align: center;
+        font-size: 1rem;
+    }
+    .star-value h1{
+        text-align: center;
+        font-size: 2rem;
+    }
     .variety-features-cart{
         width: 110vh;  
            
@@ -510,7 +529,7 @@ header ul li a:hover{
         flex-direction: column;
     }
     .popular-product-item{
-        width: 85%;
+        width: 80%;
     }
     .footer-content-section{
         flex-direction: column;
