@@ -20,7 +20,10 @@ header{
     align-items: center;
     padding: 20px 0;
 }
-
+header i{
+    /* display: none; */
+    visibility: hidden;
+}
 header h1{
     font-size: 24px;
     font-weight: 600;
@@ -75,7 +78,6 @@ header ul li a:hover{
 .banner-log img{
     width: 153px;
     height: auto;
-    /* margin-left: 25px; */
 }
 
 .hero-btn{
@@ -433,3 +435,81 @@ header ul li a:hover{
     padding: 10px 0 10px 10px;
 }
 /* Footer-Section End */
+
+/* Responsive Design for Mobile First Approach start */
+@media (max-width: 690px){
+    nav{
+        display: none;
+    }
+
+    header i{
+    visibility: visible;
+    cursor: pointer;
+    }
+    .banner-log{
+        display: block;
+    }
+    .hero-section{
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+    .hero-content h1{
+        font-size: 40px;
+    }
+    .features-section{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .cart-section{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .cart-star{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .star-value-section{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .variety-features-cart{
+        width: 110vh;  
+           
+    }
+
+    .variety-cart-01, .variety-cart-02{
+        flex-direction: column;
+        border: none;  
+        gap: 30px;
+    }
+    .variety-cart-01 img, .variety-cart-02 img{
+        width: 300px;
+    }
+    .most-popular-product-cart{
+        flex-direction: column;
+    }
+    .popular-product-item{
+        width: 85%;
+    }
+    .footer-content-section{
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+    .footer-content-1{
+        display: flex;
+        align-items: center;
+    }
+    .footer-mail-part{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+}
+
+/* Responsive Design for Mobile First Approach end */
