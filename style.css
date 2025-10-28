@@ -107,6 +107,15 @@ header ul li a:hover{
     font-weight: 500;
     cursor: pointer;
 }
+.hero-secondary-dot-image{
+    position: relative;
+    top: 12em;
+    right: 41em;
+}
+.hero-secondary-dot-image img{
+    width: 120px;
+    height: auto;
+}
 /* Hero Section end */
 
 /* Features Section start */
@@ -471,6 +480,7 @@ header ul li a:hover{
         flex-direction: column;
         text-align: center;
         gap: 30px;
+        margin-bottom: -16em;
     }
     .hero-image-rating{
         position: relative;
@@ -485,7 +495,14 @@ header ul li a:hover{
     .hero-content h1{
         font-size: 40px;
     }
-
+    .hero-secondary-dot-image{
+    position: relative;
+    top: -20em;
+    left: 9em;
+    }
+    .star-btn{
+        text-align: center;
+    }
     .features-section{
         flex-direction: column;
         gap: 30px;
